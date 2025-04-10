@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University Courses</title>
+
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f4f4f4;
+        text-align: center;
+    }
+    .container {
+        max-width: 600px;
+        height: 500px;
+        margin: auto;
+        
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow:  0 0 10px rgb(255, 0, 0);
+        
+    }
+    .course {
+        display: none;
+        font-size: 18px;
+        padding: 10px;
+        background: rgb(3, 27, 239);
+        border-radius: 5px;
+        border-radius: 15px;
+        
+    }
+    .course,h3,p,h2{
+        color: #f4f4f4;
+    }
+    .courses,p{
+     padding-bottom: 43px;
+    }
+    .pagination {
+        margin-top: 20px;
+    }
+    button {
+        padding: 10px;
+        margin: 5px;
+        border: none;
+        cursor: pointer;
+        background: #28a745;
+        color: white;
+        border-radius: 15px;
+    }
+    button:disabled {
+        background: #ccc;
+    }
+    .boxshade{
+        margin-top: 4%;
+        padding: 8px;
+    }
+    @media (max-width:780px){
+            .container{
+                height: 550px;
+            }
+            .course,h3,p,h2{
+              font-size: 18px;
+            }
+          }
+</style>
+
+<link rel="stylesheet" href="/index/style.css">
+<link rel="stylesheet" href="/index/all.css">
+</head>
+<body>
+  <section class="">
+    <div class="container">
+      <h2 style="color: black;">Course We Offer</h2>
+    <div class="boxshade">
+    <div id="courses">
+        <!-- Each course is a block; only one will be visible at a time -->
+        <div class="course">
+          <h3>Marshallers’ Course</h3>
+           <br>
+          <p>
+            To introduce participants to the general principle and practices in the Aviation industry.
+            To familiarize participants with air traffic services (ATS) procedures and the provisions of
+            Airspace Management and Air Traffic Flow Management.
+          </p>
+        </div>
+        <div class="course">
+           <h3>Air Traffic Control Refreshers Course (ACRR)</h3>
+           <br>
+          <p>
+           To introduce participants to the general principle 
+                    and practices in Aviation industry To familiarize participants 
+                    with air traffic services (ATS) procedures. To familiarize the 
+                    participants with the provisions of Airspace Management and Air 
+                    Traffic Flow Management. Course Outline Air Traffic 
+                    Introductory Course (ATIC) Air Traffic Management (ATM) Air.
+          </p>
+        </div>
+        <div class="course">
+         <h3>Abridge Air Traffic Control Course (AAC)</h3>
+         <br>
+          <p>
+              introduce participants to the general principle and practices in Aviation industry 
+              To familiarize participants with air traffic services (ATS) procedures. To familiarize 
+              the participants with the provisions of Airspace Management and Air Traffic Flow Management. 
+              Course Outline Air Traffic Introductory Course (ATIC) Air Traffic Management (ATM) Air 
+          </p>
+        </div>
+        <div class="course">
+          <h3>Cabin-Crew-Refresher-Course</h3>
+          <br>
+          <p>
+            introduce participants to the general principle and practices in Aviation industry 
+            To familiarize participants with air traffic services (ATS) procedures. To familiarize 
+            the participants with the provisions of Airspace Management and Air Traffic Flow Management. 
+            Course Outline Air Traffic Introductory Course (ATIC) Air Traffic Management (ATM) Air .
+          </p>
+        </div>
+        <div class="course">
+        <h3>Cabin-Crew-Refresher-Course</h3>
+        <br>
+          <p>
+            ApplyOverview COURSE OVERVIEW A Cabin Crew Refresher Course is a 
+                    training program designed for experienced cabin crew members to refresh their
+                    knowledge and skills on specific topics. The refresher course is typically provided on 
+                    a periodic basis to ensure that cabin crew members stay current with changes in
+                    regulations, technology 
+          </p>
+        </div>
+        <div class="course">
+          <h3>Instrument-Refresher (Simulator)</h3>
+          <br>
+          <p>
+            ApplyOverview COURSE OVERVIEW Instrument Refresher is a training 
+            program designed for pilots to maintain their proficiency in instrument 
+            flight and renew their instrument rating. The Instrument Rating is a qualification
+            that permits pilots to fly aircraft in weather conditions
+            with reduced visibility, relying solely on instrument flight rules (IFR). 
+          </p>
+        </div>
+
+        <div class="course"> <h3>aviation-statistics-course</h3>
+          <br>
+          <p>
+              To develop entry and intermediate level Aviation professionals and
+                      to equip them on how to effectively handle and coordinate passengers 
+                      and customers within and around Aviation facilities. Course Outline Entry Requirement Who Should 
+                      Attend? Entry and intermediate level Aviation professionals who are 
+                      responsible for the day today running aspects  
+          </p>
+      </div>
+      <div class="course"> <h3>airfield-ground-lighting-system-course</h3>
+        <br>
+        <p>
+            This course equips participants with the knowledge to function 
+            effectively as Air Traffic Safety Electronic Personnel in Aeronautical
+            Telecommunications facilities Course Outline Engineering Mathematics Electronics 
+            Engineering Electric Circuit Theory Telecommunication Engineering Workshop Practice 
+            Technical/Engineering Drawing Laboratory Navigational Aids 
+        </p>
+    </div>
+    <div class="course"> <h3>airfield-ground-lighting-visual-night-landing-system-course</h3>
+      <br>
+      <p>
+          This course equips participants with the knowledge to function effectively 
+                  as Air Traffic Safety Electronic Personnel in Aeronautical Telecommunications
+                  facilities Course Outline Engineering Mathematics Electronics Engineering Electric
+                  Circuit Theory Telecommunication Engineering Workshop Practice Technical/Engineering
+      </p>
+  </div>
+        
+  <div class="course"> <h3>Standard-Flight-Operations-Course (SFO)</h3>
+    <br>
+    <p>
+        The aim of the course is to train students to acquire the necessary knowledge 
+                and basic skills required at the entry level as Flight Operations Officer. The SFO 
+                is designed to help pilots and other aviation professionals
+                perform their duties safely and efficiently, while also complying with regulatory 
+    </p>
+</div>
+
+<div class="course"> <h3>Standard-Flight-Operations-Refresher-Course</h3>
+  <br>
+  <p>
+      Completing the SFOC refresher course allows pilots and other
+      aviation personnel to maintain their proficiency and demonstrate their 
+      commitment to safety and professionalism. It also helps ensure that they are up-to-date with the latest
+      developments in flight operations and regulatory compliance. Course Outline The course covers a range 
+  </p>
+</div>
+
+<div class="course"> <h3>Aircraft-Dispatcher-Currency</h3>
+  <br>
+  <p>
+      Aircraft Dispatcher Currency is a critical aspect of 
+      maintaining proficiency and ensuring the safe and efficient operation of 
+      an aircraft. Dispatchers must stay current in several areas, including knowledge, 
+      skills, and procedures related to flight planning,
+      meteorology, aircraft performance, and communication, by completing regular training and participating.
+  </p>
+</div>
+
+              
+            <div class="course"> <h3>cabin-crew-initial-training</h3>
+              <br>
+              <p>
+                  COURSE DESCRIPTION A Cabin Crew Training Basic (CCTB) Course is
+                          initial  training program designed to prepare individuals for their roles 
+                          as cabin crew members in the aviation industry. This training covers various aspects 
+                          related to passenger safety, service, and the responsibilities of cabin crew. 
+              </p>
+          </div>
+
+          <div class="course"><h3>Cabin-Crew-Conversion-Course</h3>
+            <br>
+            <p>
+                Cabin Crew Conversion Course is a training program designed for 
+                experienced cabin crew members who are transitioning to a new airline or aircraft type.
+                The conversion course focuses on the specific 
+                procedures and systems of the new airline or aircraft type and is intended to 
+                refresh and update [...]
+            </p>
+        </div>
+
+        <div class="course"> <h3>Cabin-Crew-Re-Qualification-Course</h3>
+          <br>
+          <p>
+              Cabin Crew Re-qualification is a training program designed for experienced 
+              cabin crew members who require recurrent training to maintain their competency and proficiency. 
+              The re-qualification course is typically required on a periodic basis to
+              ensure that cabin crew members stay current with changes in regulations, technology, and best 
+          </p>
+      </div>
+
+      <div class="course"><h3>Airport Power Supply System (Operation and Maintenance of Diesel Engine Generator)</h3>
+        <br>
+        <p>
+            ApplyOverview OBJECTIVE The aim of the course is for operation 
+            and maintenance of diesel engine generator. Course Outline -Basic principle of
+            operation of Standby Gen-Set -Principles of governing -Speed and Frequency 
+            control -Parallel operation
+        </p>
+    </div>
+
+    <div class="course"> <h3>VOR EQUIPMENT MAINTENANCE – REFRESHER</h3>
+      <br>
+      <p>
+          COURSE DESCRIPTION This comprehensive course package 
+          is designed to provide participants with a richly-rewarding 
+          career in the air transport industry. Participants are groomed 
+          by a team of seasoned instructors to develop necessary skills and 
+          proficiency required.
+      </p>
+  </div>
+
+  <div class="course"> <h3>Instrument-Renewal-(Simulator)</h3>
+    <br>
+    <p>
+        Instrument Renewal is a training program designed for pilots to maintain 
+                their proficiency in instrument flight and renew their instrument rating. The Instrument 
+                Rating is a qualification that permits pilots to fly aircraft in weather conditions
+                with reduced visibility, relying solely on instrument flight rules (IFR). Course Outline [...]
+    </p>
+</div>
+
+<div class="course"> <h3>Night-Rating</h3>
+  <br>
+  <p>
+      COURSE OVERVIEW A Night Rating is a qualification that allows pilots
+      to fly an aircraft during nighttime conditions. Night flying requires 
+      specialized knowledge and skills to operate an aircraft safely and efficiently, 
+      with reduced visibility and potential hazards
+      Course Outline The training typically includes theoretical knowledge and 
+      practical flight training. [...]
+  </p>
+</div>
+
+<div class="course"><h3>Integrated-Airline Transport Pilot License (I-ATPL)</h3>
+  <br>
+  <p>
+      This course is packaged to provide a rewarding career in Aviation.
+      The course is Nigerian CAA approved and the students learn from recognized 
+      experts while developing necessary skills and proficiencynecessary to enable 
+      them operate as crew on large and wide body airplanesfor 
+      commercial air transport operations and to obtain the Airline Transport Pilot Licence 
+      (Aeroplanes).
+  </p>
+</div>
+
+<div class="course"> <h3>Airline Transport Pilot Licence (ATPL) Course</h3>
+  <br>
+  <p>
+      COURSE OVERVIEW An Airline Transport Pilot License (ATPL)
+      is the highest level of pilot license available and is required for 
+      pilots who wish to fly large commercial aircraft or work for an airline. An 
+      ATPL allows a pilot to act as pilot-in-command or co-pilot in multi-crew
+      aircraft operations. Course Outline [...]
+  </p>
+</div>
+
+<div class="course"> <h3>Flying Instructors Licence (FI) Course</h3>
+  <br>
+  <p>
+      
+      This course is packaged to provide a rewarding career in Aviation. 
+      The course is Nigerian CAA approved and the students learn from recognized 
+      experts necessary skillsand proficiency required to enable them train pilots 
+      on the operation of single and multi-engine airplanes and how to
+      impart knowledge on the skills required for Instrument and multi-engine
+      Flight operations as Flight Instructor’s.
+  </p>
+</div>
+
+<div class="course"> <h3>Airport Power Supply System (Operation and Maintenance of Refrigeration & Air-Conditioning System)</h3>
+  <br>
+  <p>
+      ApplyOverview OBJECTIVE The aim of the course is for Operation
+      and Maintenance of Refrigeration & Air-Conditioning System. Course Outline 
+      1.Introduction to  Refrigeration System <br>
+      2.Basic principle of Air-conditioning  <br>
+      and Refrigeration systems
+  </p>
+</div>
+        <!-- ... include other course blocks up to Course 24 ... -->
+        <div class="course"> <h3>Integrated-Airline Transport Pilot License (I-ATPL)</h3>
+          <br>
+          <p>
+              PRICE £35.00 <br>
+
+              The Integrated Airline Transport Pilot License (I-ATPL) 
+              is a structured and intensive training program designed for individuals 
+              who want to become commercial airline pilots. It provides a direct path 
+              from little or no flying experience to an Airline 
+              Transport Pilot License (ATPL), which is required to act as a captain on 
+              commercial flights.
+          </p>
+      </div>
+      </div>
+    </div>
+
+</div>
+
+    <div class="pagination">
+      <button id="prev" onclick="changePage(-1)" disabled>Previous</button>
+      <button id="next" onclick="changePage(1)">Next</button>
+    </div>
+  </section>
+
+      <!-------------------------- JS -------------------------->
+      <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+      <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="/index/javascript.js"></script>
+  <script>
+    let currentPage = 0;
+    const courses = document.querySelectorAll('.course');
+    const totalPages = courses.length;
+
+    function updateCourses() {
+      courses.forEach((course, index) => {
+        course.style.display = index === currentPage ? 'block' : 'none';
+      });
+      document.getElementById('prev').disabled = currentPage === 0;
+      document.getElementById('next').disabled = currentPage === totalPages - 1;
+    }
+
+    function changePage(step) {
+      currentPage += step;
+      updateCourses();
+    }
+
+    updateCourses();
+  </script>
+</body>
+</html>
